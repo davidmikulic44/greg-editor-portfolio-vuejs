@@ -1,0 +1,60 @@
+.sidebar-menu {
+    width: 73px;
+    border-radius: 0px 0px 50px 50px;
+    @include flexCenterColumn;
+    gap: 1rem;
+    transition: all 0.2s ease;
+    position: fixed;
+}
+
+.fixed-icons {
+    background: linear-gradient(180deg, $sidebar-color1, $sidebar-color2);
+    position: fixed; /* Fix the position of the social icons */
+    margin-top: 54px; /* Ensure they start at the top of the viewport */
+    left: 0; /* Ensure they stay on the left of the viewport */
+    width: 73px; /* Match the width of the sidebar */
+    top: 0;
+    @include flexColumn;
+    align-items: center;
+    gap: 1.7rem;
+    transition: top 0.2s ease-out;
+    will-change: transform;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 99px;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes bounceDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounceUp {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

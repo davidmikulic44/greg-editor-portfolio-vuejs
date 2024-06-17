@@ -1,0 +1,36 @@
+.container {
+    background-color: $background-color;
+    @include flexRow;
+    gap: 3rem;
+}
+
+.right-side {
+    width: 100%;
+}
+
+.shape {
+    filter: blur(200px);
+    position: absolute;
+    z-index: -1;
+}
+
+#shape1 {
+    top: 250px;
+    right: 300px;
+
+}
+
+#shape2 {
+    top: 450px;
+    left: 250px;
+
+}
+
+#shape3 {
+    bottom: 0px;
+
+}
+
+#shape4 {
+    left: 200px;
+}

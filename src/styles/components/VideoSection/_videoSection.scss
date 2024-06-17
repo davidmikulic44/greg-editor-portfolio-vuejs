@@ -1,0 +1,45 @@
+.slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: fit-content; /* Adjust width based on the number of slides */
+}
+
+.slide {
+    flex: 0 0 auto;
+    width: 300px; /* Each slide is 300px wide */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    margin-right: 1rem; /* Add 1rem gap between slides */
+}
+
+.slide-content {
+    pointer-events: auto; /* Ensure interaction with video card content */
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem; /* Larger font size for arrows */
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease;
+    border-radius: 50%; /* Rounded shape for arrows */
+}
+
+.arrow:hover {
+}
+
+.prev {
+    left: 1rem; /* Adjust positioning */
+}
+
+.next {
+    right: 1rem; /* Adjust positioning */
+}

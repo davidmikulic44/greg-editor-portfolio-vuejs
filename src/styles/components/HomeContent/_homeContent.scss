@@ -1,0 +1,4 @@
+.content-container {
+    @include flexColumn;
+    align-items: center;
+}

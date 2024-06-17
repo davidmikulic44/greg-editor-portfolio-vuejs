@@ -1,0 +1,63 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  background: linear-gradient(90deg, $sidebar-color1-rgba, $sidebar-color2-rgba);
+  padding: 10px 100px 10px 15px; /* Adjusted padding */
+  border-radius: 50px 0px 0px 50px;
+  width: calc(75% - 115px); /* Adjusted width */
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0; /* Optional: Stick to the top of the viewport */
+  right: 0; /* Stick to the right side of the viewport */
+  z-index: 10;
+}
+
+.header-info {
+  @include flexRow();
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.header-socials {
+  @include flexRow();
+  align-items: center;
+  gap: 3rem;
+}
+
+.header-profile {
+  @include flexRow;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.header-avatar {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 1px solid $gray;
+}
+
+.header-name {
+  color: $foreground-color;
+}
+
+.contact-button {
+  all: unset;
+  font-weight: bold;
+  height: 1.5rem;
+  padding: 0.4rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  border-radius: 17.5px;
+  font-size: 16px;
+  @include buttonStyle;
+}
+
+ @media (max-width: 768px) {
+    .header-profile {
+      display: none; /* Hide header-profile on mobile */
+    }
+  }

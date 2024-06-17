@@ -1,0 +1,29 @@
+.main-title {
+    font-size: 88px;
+    width: 650px;
+    font-weight: bold;
+    text-wrap: wrap;
+    filter: drop-shadow(2px 2px 5px $sidebar-color1-rgba);
+    line-height: 100px;
+
+}
+
+.highlight {
+  display: inline-block;
+  transition: opacity 0.1s, transform 0.5s;
+  @include greenGradient;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0px);
+}
+
+.fade-out {
+  opacity: 0;
+  transform: translateY(10px);
+  filter: blur(1px);
+}
