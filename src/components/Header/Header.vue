@@ -18,7 +18,7 @@
 
 <script setup>
 import SocialIcon from './SocialIcon.vue';
-const linkedin = '/assets/svgs/linkedin.svg'
-const instagram = '/assets/svgs/instagram.svg'
-const twitter =  '/assets/svgs/twitter.svg'
+import linkedin from '../../assets/images/Vectorlinkedin.png'
+import instagram from '../../assets/images/Vectorig.png'
+import twitter from '../../assets/images/Vectorx.png'
 </script>

@@ -1,17 +1,17 @@
 <template>
     <div class="stat-cards">
         <StatisticCardSingle
-            imageUrl="/src/assets/svgs/eye.svg"
+            :imageUrl="eye"
             bigText="2340000000"
             smallText="total views"
         ></StatisticCardSingle>
         <StatisticCardSingle
-            imageUrl="/src/assets/svgs/clients.svg"
+            :imageUrl="clients"
             bigText="34"
             smallText="different clients"
         ></StatisticCardSingle>
         <StatisticCardSingle
-            imageUrl="/src/assets/svgs/youtube.svg"
+            :imageUrl="yt"
             bigText="1405"
             smallText="videos edited"
         ></StatisticCardSingle>
@@ -20,4 +20,7 @@
 
 <script setup>
 import StatisticCardSingle from "./StatisticCardSingle.vue";
+import eye from '../../assets/images/Vectoreye.png'
+import clients from '../../assets/images/Vectorclient.png'
+import yt from '../../assets/images/Vectoryt.png'
 </script>
