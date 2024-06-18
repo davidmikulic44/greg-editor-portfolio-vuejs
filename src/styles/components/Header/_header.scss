@@ -7,11 +7,11 @@ header {
   padding: 10px 100px 10px 15px; /* Adjusted padding */
   border-radius: 50px 0px 0px 50px;
   width: calc(75% - 115px); /* Adjusted width */
-  flex-wrap: wrap;
   position: fixed;
   top: 0; /* Optional: Stick to the top of the viewport */
   right: 0; /* Stick to the right side of the viewport */
   z-index: 10;
+  gap: 1rem;
 }
 
 .header-info {
@@ -24,6 +24,7 @@ header {
   @include flexRow();
   align-items: center;
   gap: 3rem;
+  margin-top: 4px;
 }
 
 .header-profile {
@@ -60,4 +61,5 @@ header {
     .header-profile {
       display: none; /* Hide header-profile on mobile */
     }
+
   }

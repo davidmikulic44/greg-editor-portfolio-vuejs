@@ -3,7 +3,7 @@
     Stop settling for 
     <span class="highlight" :class="fadeClass">{{ currentText }}</span>
     editor.
-    <a href="mailto:gregoredits29@gmail.com" target="_blank" class="get-started">Get started</a>
+    <a href="mailto:gregoredits29@gmail.com" target="_blank" class="get-started">Contact now</a>
   </div>
 </template>
 

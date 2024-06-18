@@ -1,8 +1,8 @@
 <template>
     <div class="video-container">
         <iframe
-            width="656"
-            height="369"
+            width="100%"
+            height="100%"
             :src="computedVideoUrl"
             title="Showcase reel"
             frameborder="0"

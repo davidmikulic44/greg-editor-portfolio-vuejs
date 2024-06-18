@@ -34,3 +34,12 @@
 #shape4 {
     left: 200px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        overflow-x: hidden;
+    }
+    #shape4 {
+        left: 0px;
+    }
+}

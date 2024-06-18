@@ -24,7 +24,6 @@
 }
 
 .profile-text {
-    
 }
 
 .profile {
@@ -34,4 +33,16 @@
     @include flexCenterRow;
     flex-wrap: wrap;
     z-index: 5;
+}
+
+@media (max-width: 768px) {
+    .introduction-text {
+        font-size: 26px;
+    }
+    .introduction-description {
+        font-size: 14px;
+    }
+    .profile {
+        gap: 50px;
+    }
 }
