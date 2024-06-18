@@ -2,17 +2,17 @@
     <div class="stat-cards">
         <StatisticCardSingle
             :imageUrl="eye"
-            bigText="2340000000"
+            bigText="604120364"
             smallText="total views"
         ></StatisticCardSingle>
         <StatisticCardSingle
             :imageUrl="clients"
-            bigText="34"
+            bigText="21"
             smallText="different clients"
         ></StatisticCardSingle>
         <StatisticCardSingle
             :imageUrl="yt"
-            bigText="1405"
+            bigText="450"
             smallText="videos edited"
         ></StatisticCardSingle>
     </div>
