@@ -108,10 +108,6 @@ onBeforeUnmount(() => {
     height: 2px; /* Height for horizontal scrollbar */
 }
 
-.slider-container::-webkit-scrollbar-thumb {
-    background-color: $gray; /* Set the scrollbar thumb color to gray */
-    border-radius: 4px; /* Border radius for the scrollbar thumb */
-}
 
 .slider-container::-webkit-scrollbar-track {
     background: transparent; /* Background of the scrollbar track */
