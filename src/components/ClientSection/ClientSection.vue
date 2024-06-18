@@ -8,7 +8,7 @@
     >
       <div class="slides" :style="{ transform: `translateX(-${translateValue}px)`, gap: '1rem' }">
         <div
-          class="slide"
+          class="client-slide"
           v-for="(client, index) in [...clients, ...clients]"
           :key="`${client.youtubeChannelLink}-${index}`"
         >

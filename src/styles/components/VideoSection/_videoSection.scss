@@ -43,3 +43,11 @@
 .next {
     right: 1rem; /* Adjust positioning */
 }
+
+
+@media (max-width: 768px) {
+    .slide {
+        margin-right: 0.4rem;
+        width: 250px;
+    }
+}

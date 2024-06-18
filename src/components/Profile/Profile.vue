@@ -1,7 +1,7 @@
 <template>
     <section class="profile">
         <ProfileCard></ProfileCard>
-        <Shape2 class="shape" id="shape3"></Shape2>
+        <Shape2 class="shape" id="shape5"></Shape2>
         <StatisticCards></StatisticCards>
     </section>
 </template>

@@ -15,7 +15,8 @@
     }
     &:active {
         background-color: $gray;
-        h1, p {
+        h1,
+        p {
             color: $background-color;
         }
     }
@@ -56,4 +57,14 @@
 .video-stats {
     @include flexRow;
     gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .video-card {
+        width: 250px;
+    }
+    .thumbnail-image {
+        width: 250px;
+        height: 175px;
+    }
 }
