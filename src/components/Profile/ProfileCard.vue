@@ -1,7 +1,7 @@
 <template>
     <article class="profile-card">
         <img
-            src="../../assets/images/ninja.jpg"
+            src="https://i.imgur.com/f8dHITm.jpeg"
             alt=""
             srcset=""
             class="profile-picture"
