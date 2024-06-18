@@ -1,39 +1,18 @@
 <template>
     <section class="clients">
         <h1 class="clients-title">Featured videos</h1>
-        <div
-            class="slider-container"
-            @mouseover="stopAutoScroll"
-            @mouseleave="startAutoScroll"
-        >
-            <div
-                class="slides"
-                :style="{
-                    transform: `translateX(-${translateValue}px)`,
-                    gap: '1rem',
-                }"
-            >
-                <div
-                    v-for="(video, index) in [...videos, ...videos]"
-                    :key="`${video.youtubeVideoLink}-${index}`"
-                    class="slide"
-                >
-                    <div class="slide-content">
-                        <VideoCard
-                            :youtubeVideoLink="video.youtubeVideoLink"
-                            :thumbnail="video.thumbnail"
-                            :profileImage="video.profileImage"
-                            :title="video.title"
-                            :viewCount="video.viewCount"
-                            :channelName="video.channelName"
-                        />
-                    </div>
-                </div>
-            </div>
-
-            <ArrowLeft class="arrow prev" @click="prevSlide"></ArrowLeft>
-
-            <ArrowRight class="arrow next" @click="nextSlide"></ArrowRight>
+        <div class="clients-grid">
+            <VideoCard
+                v-for="(video, index) in [...videos]"
+                :key="`${video.youtubeVideoLink}-${index}`"
+                class="slide"
+                :youtubeVideoLink="video.youtubeVideoLink"
+                :thumbnail="video.thumbnail"
+                :profileImage="video.profileImage"
+                :title="video.title"
+                :viewCount="video.viewCount"
+                :channelName="video.channelName"
+            />
         </div>
     </section>
 </template>
@@ -97,6 +76,4 @@ onBeforeUnmount(() => {
 });
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

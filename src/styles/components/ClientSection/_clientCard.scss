@@ -3,9 +3,10 @@
     background-color: $dark-card-color;
     border: 2px solid $card-color-border;
     width: 200px;
-    margin-right: 0.5rem;
+    transition: all 0.1s ease-in-out;
     &:hover {
         animation: bounceIn 1s infinite;
+        background-color: lighten($dark-card-color, 20);
     }
 
     &:active {
@@ -25,7 +26,7 @@
 }
 
 .client-name {
-    font-size: 26px;
+    font-size: 23px;
     font-weight: 600;
 }
 .subscriber-count {

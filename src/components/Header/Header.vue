@@ -2,7 +2,7 @@
   <header>
     <section class="header-info">
       <div class="header-profile">
-        <img src="../../assets/images/ninja.png" alt="" class="header-avatar">
+        <img src="../../assets/images/ninja.jpg" alt="" class="header-avatar">
         <h3 class="header-name">Gregor</h3>
       </div>
       <a href="mailto:gregoredits29@gmail.com" target="_blank" class="contact-button">Contact</a>

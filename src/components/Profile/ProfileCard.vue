@@ -1,7 +1,7 @@
 <template>
     <article class="profile-card">
         <img
-            src="../../assets/images/ninja.png"
+            src="../../assets/images/ninja.jpg"
             alt=""
             srcset=""
             class="profile-picture"

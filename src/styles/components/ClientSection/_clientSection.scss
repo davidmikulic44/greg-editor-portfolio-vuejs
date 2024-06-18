@@ -35,3 +35,9 @@
     font-size: 36px;
     margin-bottom: 25px;
 }
+
+.clients-grid {
+    @include flexCenterRow;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
