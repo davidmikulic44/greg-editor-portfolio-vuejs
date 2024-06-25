@@ -5,7 +5,7 @@ const routes = [
         path: '/', 
         component: HomeView,
         meta: {
-            title: "Gregor Edits Portfolio",
+            title: "Gregor Edits",
         }
     },
 ]

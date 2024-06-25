@@ -17,7 +17,7 @@ export const videos = [
     },
     {
       youtubeVideoLink: "https://www.youtube.com/watch?v=7mFPi2ydtMg",
-      thumbnail: "https://i.ytimg.com/vi/qg-aJR38vTQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD87zvskrd5BpyW2w-PErMHvlS9uA",
+      thumbnail: "https://i.ytimg.com/vi/7mFPi2ydtMg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAzcPzswkWPn_KbgDD4gKHa-riFWQ",
       profileImage: "https://yt3.googleusercontent.com/RxeCPiecjQcMEVJIrHQsT3ac9Euh40Wc-NJKNQEOruNrlRlBI-wSb7b5pHUFCZWZ7WaI7lg=s160-c-k-c0x00ffffff-no-rj",
       title: "Cheap vs Expensive Food!",
       channelName: "a bit more willne",
@@ -134,5 +134,14 @@ export const videos = [
       title: "Attempting the CRAZIEST Stunt",
       channelName: "Sofie Dossi",
       viewCount: 416830
-    },   
+    },
+    {
+      youtubeVideoLink: "https://www.youtube.com/watch?v=EMZ423IaKnI",
+      thumbnail: "https://i.ytimg.com/vi/EMZ423IaKnI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVIVCG8kxMa5cKfVJFD0x6M8HOow",
+      profileImage: "https://yt3.googleusercontent.com/KPSC1OJEkl8nPbfTl7ipk9Lg3hmbxL2ZqFMw_Fpxxx7H-n0CKA6Xt4Q8aH5Zo6I1-wzFZKck7g=s160-c-k-c0x00ffffff-no-rj",
+      title: "How to ACTUALLY start a clothing brand in 2024 (7 FIGURES)",
+      channelName: "Caprice",
+      viewCount: 352354
+    },
+     
   ];

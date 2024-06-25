@@ -80,7 +80,31 @@ export const clients = [
       {
         youtubeChannelLink: "https://www.youtube.com/@morewillne",
         profileImage: "https://yt3.googleusercontent.com/RxeCPiecjQcMEVJIrHQsT3ac9Euh40Wc-NJKNQEOruNrlRlBI-wSb7b5pHUFCZWZ7WaI7lg=s160-c-k-c0x00ffffff-no-rj",
-      name: "a bit more willne",
+        name: "a bit more willne",
         subscriberCount: 2251250
-      }, 
+      },
+      {
+        youtubeChannelLink: "https://www.youtube.com/@hoopflix",
+        profileImage: "https://yt3.googleusercontent.com/Y_N-dL3bsiyVKRcno27RmJ5A6HxRK90z8qGdDfG2mDEn1fXfXhjAeieg4s1jBTBnVw9acK6gSQ=s160-c-k-c0x00ffffff-no-rj",
+        name: "HoopFlix",
+        subscriberCount: 660156
+      },
+      {
+        youtubeChannelLink: "https://www.youtube.com/@rjackstheartofwealth6152",
+        profileImage: "https://yt3.googleusercontent.com/6c-QP3ERBAdm6LlZz7Mq4TTUWcQ1H3y_oztkbvLgWYm75JP8PQyDj5m-S22f60fALaCbOaRr3Lg=s160-c-k-c0x00ffffff-no-rj",
+        name: "R Jack's The Art Of Wealth",
+        subscriberCount: 161654
+      },
+      {
+        youtubeChannelLink: "https://www.youtube.com/@Caprrice",
+        profileImage: "https://yt3.googleusercontent.com/KPSC1OJEkl8nPbfTl7ipk9Lg3hmbxL2ZqFMw_Fpxxx7H-n0CKA6Xt4Q8aH5Zo6I1-wzFZKck7g=s160-c-k-c0x00ffffff-no-rj",
+        name: "Caprice",
+        subscriberCount: 94512
+      },
+      {
+        youtubeChannelLink: "https://www.youtube.com/@themaxtaylorgames",
+        profileImage: "https://yt3.googleusercontent.com/g9xK80RiNN8vJUFXco1KEpQuNtCfuxnT4rrrjyV7K0t-_YCq-kB510gi4Mdtcgq7vGdE4YL0omw=s160-c-k-c0x00ffffff-no-rj",
+        name: "Maxtaylorgames",
+        subscriberCount: 601420
+      },
   ];
