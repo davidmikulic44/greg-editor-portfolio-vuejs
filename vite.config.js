@@ -7,5 +7,5 @@ export default defineConfig({
   plugins: [vue(),
     svgLoader(),
   ],
-  base: '/greg-editor-portfolio-vuejs'
+  base: '/'
 })

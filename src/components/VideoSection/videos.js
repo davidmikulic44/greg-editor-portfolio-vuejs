@@ -143,5 +143,20 @@ export const videos = [
       channelName: "Caprice",
       viewCount: 352354
     },
-     
+    {
+      youtubeVideoLink: "https://www.youtube.com/watch?v=xBLjseLOjYo",
+      thumbnail: "https://i.ytimg.com/vi/xBLjseLOjYo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAz-9F9bTwu1hhV6fgyjHXPjDlefw",
+      profileImage: "https://yt3.googleusercontent.com/c-ZE7-p3Y_SvmP426C4bBSoYFwd-OEqCDeBAhe0P-aswUjfIixjNElFZWdWixwH2ZeR_IkPY_A=s160-c-k-c0x00ffffff-no-rj",
+      channelName: "More Aj",
+      viewCount: 620320,
+      title: "Turning Cheap Food Into Gourmet Ft Deji",
+    },
+    {
+      profileImage: "https://yt3.googleusercontent.com/fvirIZM9DYLUOmRp0m96TZgJj9_SCd0XqgC4LArxhpQA_a-u9tW9YYnpkqoeZI8gMg5ha68LBA=s160-c-k-c0x00ffffff-no-rj",
+      channelName: "Calfreezy",
+      viewCount: 1329010,
+      title: "My 75 Day Body Transformation",
+      thumbnail: "https://i.ytimg.com/vi/mjJX7qJrmzA/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBEWOPI15xQWBub8wxu4hKOrLccDw",
+      youtubeVideoLink: "https://www.youtube.com/watch?v=mjJX7qJrmzA",
+    },
   ];

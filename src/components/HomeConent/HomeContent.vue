@@ -5,6 +5,7 @@
         <Profile></Profile>
         <ClientSection></ClientSection>
         <VideoSection></VideoSection>
+        <TimelineSection></TimelineSection>
         <InspirativeMessage></InspirativeMessage>
     </div>
 </template>
@@ -15,4 +16,5 @@ import Profile from "../Profile/Profile.vue"
 import ClientSection from "../ClientSection/ClientSection.vue";
 import VideoSection from "../VideoSection/VideoSection.vue";
 import InspirativeMessage from "../InspirativeMessage/InspirativeMessage.vue"
+import TimelineSection from "../TimelineSection/TimelineSection.vue"
 </script>

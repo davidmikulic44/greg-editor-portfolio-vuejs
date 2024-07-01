@@ -4,6 +4,7 @@
     border: 2px solid $card-color-border;
     width: 200px;
     transition: all 0.1s ease-in-out;
+    overflow: hidden;
     &:hover {
         animation: bounceIn 1s infinite;
         background-color: lighten($dark-card-color, 20);
@@ -19,7 +20,6 @@
 }
 
 .client-image {
-    border-radius: 20px 20px 0px 0px;
     width: 200px;
     height: 200px;
     object-fit: cover;

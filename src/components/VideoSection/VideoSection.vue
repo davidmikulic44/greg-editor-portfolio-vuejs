@@ -5,7 +5,6 @@
             <VideoCard
                 v-for="(video, index) in [...videos]"
                 :key="`${video.youtubeVideoLink}-${index}`"
-                class="slide"
                 :youtubeVideoLink="video.youtubeVideoLink"
                 :thumbnail="video.thumbnail"
                 :profileImage="video.profileImage"

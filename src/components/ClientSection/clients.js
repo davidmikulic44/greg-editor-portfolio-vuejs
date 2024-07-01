@@ -107,4 +107,10 @@ export const clients = [
         name: "Maxtaylorgames",
         subscriberCount: 601420
       },
+      {
+        youtubeChannelLink: "https://www.youtube.com/@Calfreezy",
+        profileImage: "https://yt3.googleusercontent.com/fvirIZM9DYLUOmRp0m96TZgJj9_SCd0XqgC4LArxhpQA_a-u9tW9YYnpkqoeZI8gMg5ha68LBA=s160-c-k-c0x00ffffff-no-rj",
+        name: "Calfreezy",
+        subscriberCount: 4231320
+      }
   ];
