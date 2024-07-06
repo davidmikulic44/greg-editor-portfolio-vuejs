@@ -151,12 +151,4 @@ export const videos = [
       viewCount: 620320,
       title: "Turning Cheap Food Into Gourmet Ft Deji",
     },
-    {
-      profileImage: "https://yt3.googleusercontent.com/fvirIZM9DYLUOmRp0m96TZgJj9_SCd0XqgC4LArxhpQA_a-u9tW9YYnpkqoeZI8gMg5ha68LBA=s160-c-k-c0x00ffffff-no-rj",
-      channelName: "Calfreezy",
-      viewCount: 1329010,
-      title: "My 75 Day Body Transformation",
-      thumbnail: "https://i.ytimg.com/vi/mjJX7qJrmzA/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBEWOPI15xQWBub8wxu4hKOrLccDw",
-      youtubeVideoLink: "https://www.youtube.com/watch?v=mjJX7qJrmzA",
-    },
   ];
