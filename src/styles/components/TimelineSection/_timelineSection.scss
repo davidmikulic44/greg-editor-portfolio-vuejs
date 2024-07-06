@@ -1,0 +1,128 @@
+.timeline-img {
+  width: calc(100vw - 20px);
+  max-width: 1024px;
+  height: calc(56.25vw - 11.25px);
+  max-height: 576px;
+  object-fit: cover;
+}
+
+.timeline-thumbnail-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-timelines {
+  width: calc(100vw - 20px);
+  max-width: 1024px;
+  height: calc(56.25vw - 11.25px);
+  max-height: 576px;
+  z-index: 30;
+}
+
+.splide__arrow {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.pointer {
+    cursor: pointer !important;
+    margin-top: 0.7rem !important;
+}
+
+.timelines-title {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background with opacity */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  overflow: auto; /* Enable scrolling within the modal */
+}
+
+.modal-content {
+    position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.modal-img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+}
+
+.timeline-img {
+  cursor: pointer;
+}
+
+.timeline-thumbnail-img {
+  cursor: pointer;
+}
+
+.small-text {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.close-button {
+  position: absolute;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  z-index: 1001;
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+.timeline-info {
+  @include flexRow;
+  justify-content: space-around;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  gap: 10px;
+}
+
+.timeline-video-title {
+  font-size: 34px;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.timeline-video-channel {
+  font-size: 15px;
+  font-weight: 400;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.channel-timeline {
+  @include flexCenterRow;
+  gap: 20px;
+}
+
+.timeline-profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

@@ -1,0 +1,45 @@
+@import 'base/colors';
+@import 'base/animations';
+@import 'base/mixins';
+@import 'base/typography';
+@import 'views/container';
+@import 'components/Header/header';
+@import 'components/Header/socialIcon';
+@import 'components/Sidebar/sidebar';
+@import 'components/HomeContent/homeContent';
+@import 'components/ShowcaseVideoSection/showcaseVideoSection';
+@import 'components/ShowcaseVideoSection/showcaseVideo';
+@import 'components/ShowcaseVideoSection/mainTitle';
+@import 'components/Profile/profile';
+@import 'components/Profile/statisticCardSingle';
+@import 'components/Profile/statisticCards';
+@import 'components/ClientSection/clientCard';
+@import 'components/ClientSection/clientSection';
+@import 'components/VideoSection/videoCard';
+@import 'components/VideoSection/videoSection';
+@import 'components/InspirativeMessage/inspirativeMessage';
+@import 'components/TimelineSection/timelineSection';
+*{
+    margin: 0;
+    font-family: $font-primary;
+    color: $foreground-color;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+li {
+  all: unset;
+}
+
+::-moz-selection { 
+  color: $background-color;
+  background: $cyan;
+}
+
+::selection {
+  color:  $background-color;
+  background: $cyan;
+}

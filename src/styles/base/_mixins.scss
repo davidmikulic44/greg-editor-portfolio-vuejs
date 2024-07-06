@@ -1,0 +1,99 @@
+@mixin flexCenterRow() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+@mixin flexCenterColumn() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@mixin flexCenterVertical() {
+    display: flex;
+    align-items: center;
+}
+
+@mixin flexCenterHorizontal() {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin flexSpaceBetween() {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin flexSpaceAround() {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+@mixin flexColumn() {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flexRow() {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin buttonStyle() {
+    @include greenGradient;
+    text-align: center;
+    transition: 0.3s ease !important;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    color: $foreground-color-dark;
+	filter: drop-shadow(5px 5px 10px $card-color);
+    &:hover {
+        animation: bounce infinite 0.8s forwards;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: -50%;
+        right: -50%;
+        bottom: -50%;
+        left: -50%;
+        overflow: hidden;
+        background: linear-gradient(
+            to bottom,
+            rgba(229, 172, 142, 0),
+            rgba(255, 255, 255, 0.5) 50%,
+            rgba(229, 172, 142, 0)
+        );
+        transform: rotateZ(60deg) translate(-5em, 7.5em);
+    }
+
+    &:hover::after,
+    &:focus::after {
+        animation: sheen 1s;
+    }
+
+    &:active {
+        box-shadow: 0px 0px 0px white;
+        -webkit-box-shadow: inset -2px 2px 2px #ccc;
+        -moz-box-shadow: inset -2px 2px 2px #ccc;
+        box-shadow: inset -2px 2px 2px #ccc;
+        transform: translate(0, 2px);
+        color: #ffc491;
+        background-color: #ede358;
+        overflow: hidden;
+    }
+    &:focus {
+        outline: 0;
+        overflow: hidden;
+    }
+}
+
+@mixin greenGradient {
+    background: linear-gradient(60deg, $blue-light, $cyan, $green-bright);
+}

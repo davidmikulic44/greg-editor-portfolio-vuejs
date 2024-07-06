@@ -1,0 +1,43 @@
+.clients {
+    margin-bottom: 30px;
+    z-index: 9;
+    overflow: hidden;
+    width: 80vw;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.carousel {
+    overflow: hidden;
+    width: 80vw;
+    margin-bottom: 20px;
+}
+
+.splide.is-active .splide__list {
+    display: flex;
+    gap: 20px;
+    li {
+        all: unset;
+    }
+}
+
+.fade-in-slide {
+    opacity: 0;
+    transition: opacity 1s ease; /* Adjust duration and easing as needed */
+}
+
+.fade-in-slide.active {
+    opacity: 1;
+}
+
+.clients-title {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.clients-grid {
+    @include flexCenterRow;
+    flex-wrap: wrap;
+    gap: 1rem;
+}

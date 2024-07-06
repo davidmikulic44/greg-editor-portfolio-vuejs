@@ -1,0 +1,77 @@
+.thumbnail-image {
+    width: 320px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.video-card {
+    width: 320px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: $card-color;
+    border: 2px solid $card-color-border;
+    transition: all 0.1s ease-in-out;
+    &:hover {
+        animation: bounceIn 1s infinite;
+        background-color: lighten($dark-card-color, 20);
+    }
+    &:active {
+        background-color: $gray;
+        h1,
+        p {
+            color: $background-color;
+        }
+    }
+}
+
+.video-profile-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.video-name {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 5px;
+    text-wrap: wrap;
+    width: 230px;
+    padding-right: 5px;
+}
+
+.video-info-out {
+    @include flexRow;
+    gap: 1rem;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.video-info {
+    @include flexColumn;
+}
+
+.view-count {
+}
+
+.video-stats {
+    @include flexRow;
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .video-card {
+        width: 250px;
+    }
+
+    .video-name {
+        font-size: 16px;
+        width: 90%;
+    }
+    .thumbnail-image {
+        width: 250px;
+        height: 175px;
+    }
+}

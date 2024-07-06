@@ -1,0 +1,56 @@
+.client-card {
+    border-radius: 20px;
+    background-color: $dark-card-color;
+    border: 2px solid $card-color-border;
+    width: 200px;
+    transition: all 0.1s ease-in-out;
+    overflow: hidden;
+    &:hover {
+        animation: bounceIn 1s infinite;
+        background-color: lighten($dark-card-color, 20);
+    }
+
+    &:active {
+        background-color: $gray;
+        h1,
+        p {
+            color: $background-color;
+        }
+    }
+}
+
+.client-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.client-name {
+    font-size: 23px;
+    font-weight: 600;
+}
+.subscriber-count {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.client-info {
+    @include flexColumn;
+    padding: 10px 10px 20px 10px;
+}
+
+@media (max-width: 768px) {
+    .client-image {
+        width: 150px;
+        height: 150px;
+    }
+    .client-name {
+        font-size: 20px;
+    }
+    .subscriber-count {
+        font-size: 16px;
+    }
+    .client-card {
+        width: 150px;
+    }
+}
